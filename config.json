@@ -1,0 +1,7 @@
+{
+  "puerto": 4317,
+  "ventanaHoras": 8,
+  "ollamaUrl": "http://127.0.0.1:11434",
+  "fuentes": { "claude": true, "codex": true, "ollama": true },
+  "precios": {}
+}

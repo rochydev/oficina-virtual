@@ -1,0 +1,14 @@
+{
+  "name": "oficina-virtual",
+  "version": "1.0.0",
+  "description": "Oficina isométrica en directo que muestra a tus agentes de IA (Claude Code, Codex, Ollama) como trabajadores.",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/rochydev/oficina-virtual.git" },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js --abrir",
+    "lateral": "node server.js --lateral",
+    "demo": "node server.js --abrir --demo"
+  },
+  "engines": { "node": ">=18" }
+}
